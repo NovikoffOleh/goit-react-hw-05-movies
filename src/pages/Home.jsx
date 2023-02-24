@@ -25,9 +25,9 @@ const Home = () => {
 
   return (
     <main>
-      <h1 style={{ textAlign: 'center', color: '#2a2a2a', margin: '10px 0' }}>
-        КіноПошук
-      </h1>
+     <h3 style={{ textAlign: 'center', color: '#2a2a2a', margin: '10px 0' }}>
+        Фільми для родинного перегляду і не тільки
+      </h3>
       {isLoading ? <Loader /> : <MoviesList moviesList={trendingMovies} />}
     </main>
   );
