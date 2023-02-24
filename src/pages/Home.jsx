@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <main>
       <h1 style={{ textAlign: 'center', color: '#2a2a2a', margin: '10px 0' }}>
-        Trending today
+        КіноПошук
       </h1>
       {isLoading ? <Loader /> : <MoviesList moviesList={trendingMovies} />}
     </main>
