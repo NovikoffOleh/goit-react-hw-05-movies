@@ -7,7 +7,9 @@ export const SharedLayout = () => {
   return (
     <>
       <header>
-        <h1 style={{ textAlign: 'center', color: '#2a2a2a', margin: '10px 0' }}>КіноПошук</h1>
+        <div className="container">
+        <h1 style={{ textAlign: 'center', color: '#2a2a2a', margin: '10px 0' }}>Кіно
+        <span style={{ textAlign: 'center', color: '#f70202ea', margin: '10px 0' }}>Пошук</span></h1>
         <nav className={s.links}>
           <NavLink className={s.button} to="/">
             До дому
@@ -16,6 +18,7 @@ export const SharedLayout = () => {
             Фільми
           </NavLink>
         </nav>
+        </div>
       </header>
       <Suspense fallback={<Loader />}>
         <Outlet />

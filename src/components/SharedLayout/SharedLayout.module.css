@@ -1,12 +1,11 @@
-.movies_title{
-  
-}
+
+
 .links {
   display: flex;
   justify-content: center;
   gap: 50px;
   padding: 10px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  box-shadow: #ea0a0a1a 0px 1px 0px;
 }
 
 .button {

@@ -2,12 +2,15 @@
 
 body {
   margin: 0;
-  color: #f4d6c2;
+  color: #211e1c;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgba(218, 217, 214, 0.4), rgba(248, 244, 223, 0.4)),
+  url(./assets/images/film-frame.jpg);
+    
 }
 
 code {
@@ -44,6 +47,6 @@ a {
 
 a.active {
   color: #ffffff;
-  border-color: #ff6b08;
-  background-color: #ff6b08;
+  border-color: #979696;
+  background-color: #55504c;
 }
